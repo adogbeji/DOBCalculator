@@ -25,7 +25,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="AGE"
-        android:textColor="@color/textBlue"
+        android:padding="10dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
         />
