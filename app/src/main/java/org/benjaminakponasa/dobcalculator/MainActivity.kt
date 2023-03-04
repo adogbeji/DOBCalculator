@@ -27,13 +27,13 @@ class MainActivity : AppCompatActivity() {
 
         DatePickerDialog(this,
             DatePickerDialog.OnDateSetListener{ view, year, month, dayOfMonth ->
-
+                Toast.makeText(this, "btnDatePicker Works!", Toast.LENGTH_LONG).show()
             },
             year,
             month,
             day
-        )
+        ).show()
 
-        Toast.makeText(this, "btnDatePicker Pressed!", Toast.LENGTH_LONG).show()
+//        Toast.makeText(this, "btnDatePicker Pressed!", Toast.LENGTH_LONG).show()
     }
 }
