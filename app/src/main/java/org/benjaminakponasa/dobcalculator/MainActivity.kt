@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         val day = myCalendar.get(Calendar.DAY_OF_MONTH)
 
         DatePickerDialog(this,
-            DatePickerDialog.OnDateSetListener{ view, year, month, dayOfMonth ->
+            { view, year, month, dayOfMonth ->
                 Toast.makeText(this, "btnDatePicker Works!", Toast.LENGTH_LONG).show()
             },
             year,
