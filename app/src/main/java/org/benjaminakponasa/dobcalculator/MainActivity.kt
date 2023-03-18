@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         DatePickerDialog(this,
             { view, year, month, dayOfMonth ->
-                Toast.makeText(this, "btnDatePicker Works!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Year was $year, month was ${month + 1}, day of month was $dayOfMonth", Toast.LENGTH_LONG).show()
             },
             year,
             month,
