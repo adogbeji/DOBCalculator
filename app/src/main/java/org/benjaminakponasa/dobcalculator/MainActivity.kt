@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
                 tvSelectedDate?.text = selectedDate
 
                 val sdf = SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH)
+
+                val theDate = sdf.parse(selectedDate)
             },
             year,
             month,
